@@ -2249,6 +2249,14 @@ font-size: 18px!important;
   background-color: #fff!important;
 }
 .gsc-control-cse .gsc-option-menu{
-  border: 2px solid #000!important;
+  border: 2px solid #666!important;
   border-radius: 5px!important;
+}
+.gs-imagePreviewArea{
+  border-radius: 12px!important;
+  z-index: 0!important;
+  padding: 10px;
+}
+.gs-imagePreview:not([src$=".svg"]){
+  border-radius: 12px!important;
 }
