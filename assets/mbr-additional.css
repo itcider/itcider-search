@@ -2207,7 +2207,7 @@ a {
   padding: 10px 4px 10px 4px!important;
 }
 .gsc-webResult.gsc-result:hover{
-  border-radius: 10px;
+  border-radius: 10px!important;
 }
 .gs-webResult div.gs-visibleUrl{
   color:#01a600!important;
@@ -2223,7 +2223,7 @@ font-size: 18px!important;
   text-align: center;
 }
 .gs-imageResult .gs-image-box .gs-image {
-  border-radius: 10px;
+  border-radius: 10px!important;
 }
 .gsc-tabHeader.gsc-tabhInactive, .gsc-refinementHeader.gsc-refinementhInactive {
   border-color: #666666;
@@ -2231,12 +2231,12 @@ font-size: 18px!important;
   border-radius: 5px;
   margin-right: 10px;
   font-size: 12px!important;
-  padding: 3px 30px 3px 30px;
+  padding: 3px 27px 3px 27px;
 }
 .gsc-tabHeader.gsc-tabhActive {
   border: 2px solid #1a73e8;
   border-radius: 5px;
   margin-right: 10px;
   font-size: 12px!important;
-  padding: 3px 30px 3px 30px;
+  padding: 3px 27px 3px 27px;
 }
