@@ -1,5 +1,5 @@
 .btn {
-  border-width: 2px;
+  border-width: 1px;
 }
 body {
   font-family: Jost;
@@ -83,8 +83,9 @@ body {
 }
 /* Buttons */
 .btn {
-  padding: 0.6rem 1.2rem;
-  border-radius: 4px;
+  padding: 0rem 1rem 0rem 0.6rem!important;
+  border-radius: 8px;
+  transform: scaleX(-1);
 }
 .btn-sm {
   padding: 0.6rem 1.2rem;
@@ -597,6 +598,8 @@ a:hover {
   font-size: 1.1rem;
   line-height: 1.5;
   font-weight: 400;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px 0px, rgba(0, 0, 0, 0.07) 0px 1px 3px 0px, rgba(0, 0, 0, 0.03) 0px 0px 0px 1px;
+  border-color: #000000 !important;
 }
 .form-control > .mbr-iconfont {
   font-size: 1.375rem;
@@ -2100,8 +2103,8 @@ a {
   }
 }
 .cid-tpNMEMtmmt {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding-top: 15rem;
+  padding-bottom: 15rem;
   background-color: #ffffff;
 }
 .cid-tpNMEMtmmt .mbr-overlay {
@@ -2113,6 +2116,24 @@ a {
   margin-bottom: 1.2rem;
 }
 .cid-tpNMEMtmmt form .mbr-section-btn .btn {
+  width: 100%;
+  height: 100%;
+}
+  
+.cid-search {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: #ffffff;
+}
+.cid-search .mbr-overlay {
+  background-color: #ffffff;
+  opacity: 0.4;
+}
+.cid-search form .mbr-section-btn {
+  text-align: center;
+  margin-bottom: 1.2rem;
+}
+.cid-search form .mbr-section-btn .btn {
   width: 100%;
   height: 100%;
 }
@@ -2177,4 +2198,45 @@ a {
     -webkit-justify-content: center;
     justify-content: center;
   }
+}
+.gsc-tabsArea{
+  border-bottom: none!important;
+}
+
+.gsc-result-info{
+  padding: 10px 4px 10px 4px!important;
+}
+.gsc-webResult.gsc-result:hover{
+  border-radius: 10px;
+}
+.gs-webResult div.gs-visibleUrl{
+  color:#01a600!important;
+}
+.gsc-results .gsc-cursor-box .gsc-cursor-page{
+border: 1px solid;
+padding: 4px 8px 4px 8px;
+border-radius: 50px;
+font-size: 18px!important;
+}
+.gsc-results .gsc-cursor-box {
+  margin: 10px 10px 80px 10px!important;
+  text-align: center;
+}
+.gs-imageResult .gs-image-box .gs-image {
+  border-radius: 10px;
+}
+.gsc-tabHeader.gsc-tabhInactive, .gsc-refinementHeader.gsc-refinementhInactive {
+  border-color: #666666;
+  border: 2px solid!important;
+  border-radius: 5px;
+  margin-right: 10px;
+  font-size: 12px!important;
+  padding: 3px 30px 3px 30px;
+}
+.gsc-tabHeader.gsc-tabhActive {
+  border: 2px solid #1a73e8;
+  border-radius: 5px;
+  margin-right: 10px;
+  font-size: 12px!important;
+  padding: 3px 30px 3px 30px;
 }
