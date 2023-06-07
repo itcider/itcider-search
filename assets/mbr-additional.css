@@ -2344,3 +2344,12 @@ img{
 .mbr-section-btn a.btn:not(.btn-form){
   border-radius: 12px!important;
 }
+.gsc-cursor-chevron{
+  fill:white;
+}
+.gsc-cursor-container{
+  padding: 0%!important;
+}
+.gs-previewVisit{
+  border-radius: 8px!important;
+}
