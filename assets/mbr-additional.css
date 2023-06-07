@@ -2354,3 +2354,11 @@ img{
 .gs-previewVisit{
   border-radius: 8px!important;
 }
+.gs-no-results-result .gs-snippet, .gs-error-result .gs-snippet{
+display: flex!important;
+margin: 5px!important;
+padding: 20px!important;
+align-content: center;
+text-align: center;
+border-radius: 8px!important;
+}
