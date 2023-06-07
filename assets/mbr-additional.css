@@ -2234,9 +2234,21 @@ font-size: 18px!important;
   padding: 3px 27px 3px 27px;
 }
 .gsc-tabHeader.gsc-tabhActive {
-  border: 2px solid #1a73e8;
+  border: 2px solid #000!important;
   border-radius: 5px;
   margin-right: 10px;
   font-size: 12px!important;
   padding: 3px 27px 3px 27px;
+}
+.gsc-selected-option-container{
+  max-width: 100%!important;
+  border-radius: 5px!important;
+  font-size: 12px !important;
+  padding: 3px 40px 27px 36px!important;
+  border: 2px solid #000!important;
+  background-color: #fff!important;
+}
+.gsc-control-cse .gsc-option-menu{
+  border: 2px solid #000!important;
+  border-radius: 5px!important;
 }
