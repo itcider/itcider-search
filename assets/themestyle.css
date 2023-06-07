@@ -799,6 +799,8 @@ body {
 form .row {
   margin-left: -0.6rem;
   margin-right: -0.6rem;
+  display: flex;
+  justify-content: center;
 }
 form .row [class*=col] {
   padding-left: 0.6rem;
