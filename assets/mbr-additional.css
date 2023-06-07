@@ -2335,6 +2335,9 @@ font-size: 18px!important;
   .gcsc-find-more-on-google-magnifier{
     fill:white!important;
   }
+  .gsc-cursor-chevron{
+  fill:white;
+}
 }
 
 img{
@@ -2344,9 +2347,7 @@ img{
 .mbr-section-btn a.btn:not(.btn-form){
   border-radius: 12px!important;
 }
-.gsc-cursor-chevron{
-  fill:white;
-}
+
 .gsc-cursor-container{
   padding: 0%!important;
 }
