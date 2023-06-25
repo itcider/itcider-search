@@ -3,7 +3,6 @@
 }
 body {
   font-family: Jost;
-  background-color: #1e1e1e;
 }
 .display-1 {
   font-family: 'Jost', sans-serif;
@@ -2262,7 +2261,9 @@ font-size: 18px!important;
   border-radius: 12px!important;
 }
 @media (prefers-color-scheme: dark) {
-
+  body{
+      background-color: #1e1e1e!important;
+  }
   nav, div{
     background-color: #1E1E1E !important;
     color: #fff!important;
